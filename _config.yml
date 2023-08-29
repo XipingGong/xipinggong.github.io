@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Xiping Gong"
   avatar           : "https://people.chem.umass.edu/jchenlab/images/Xiping.jpg"
-  bio              : "Computational scientist in Chemistry and Biophysics"
-  location         : "UMass Amherst, MA"
+  bio              : "Computational scientist"
+  location         : #"University of Georgia, GA"
   employer         : #
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=tcXo964AAAAJ"
-  email            : "xipinggong@umass.edu"
+  email            : #"xipinggong@hotmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

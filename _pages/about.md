@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-<span style="color:blue">Welcome to my personal homepage</span>
+
+<!--
+<span style="color:blue">Welcome to my homepage</span>
 ==============
 ----------------------
+-->
 
-I am currently a Ph.D. student in the
-[Professor Jianhan Chen's lab](https://people.chem.umass.edu/jchenlab/main.html)
-at the Department of Chemistry, UMass Amherst.
-My ongoing project is developing the implicit solvent models
-to accelerate the conformational sampling of disordered proteins.
 
 <span style="color:blue">Recent News</span>
 ==============
