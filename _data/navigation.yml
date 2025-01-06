@@ -6,8 +6,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "People"
-    url: /people/
+#  - title: "People"
+#    url: /people/
 
   - title: "News"
     url: /news/

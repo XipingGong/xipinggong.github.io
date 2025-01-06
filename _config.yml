@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Xiping Gong"
-description              : &description "Homepage"
+description              : &description "Homepage of Xiping Gong"
 url                      : https://xipinggong.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xipinggong/xipinggong.github.io"
@@ -83,12 +83,12 @@ author:
   name             : "Xiping Gong"
   avatar           : "https://people.chem.umass.edu/jchenlab/images/Xiping.jpg"
   bio              : "Computational scientist"
-  location         : #"University of Georgia, GA"
+  location         : "University of Georgia, GA"
   employer         : #
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=tcXo964AAAAJ"
   email            : #"xipinggong@hotmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :

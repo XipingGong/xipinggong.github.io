@@ -9,20 +9,20 @@ redirect_from:
 ---
 
 
-<!--
-<span style="color:blue">Welcome to my homepage</span>
+<span style="color:blue">Computational Modeling and Simulations</span>
 ==============
 ----------------------
--->
 
+My research is dedicated to leveraging computational methods to address complex challenges across various scientific disciplines. By utilizing advanced modeling techniques, simulations, and data-driven approaches, I aim to uncover insights that are otherwise difficult to obtain through traditional experimental methods. Through these efforts, I strive to make significant contributions to the advancement of knowledge and the development of innovative solutions for real-world problems.
 
 <span style="color:blue">Recent News</span>
 ==============
 ----------------------
 
-<div class="grid__wrapper">
-  {% for post in site.news limit: 4 %}
-     {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+{% assign sorted_news = site.news | sort: 'date' | reverse %}
+{% for post in sorted_news limit:10  %}
+  <li>
+    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%m/%d/%Y" }} - {{ post.title }}</a>
+  </li>
+{% endfor %}
 
