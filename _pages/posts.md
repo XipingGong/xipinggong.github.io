@@ -27,3 +27,9 @@ Links: [html](/files/tutorials/setup.html), [ipynb](/files/tutorials/setup.ipynb
 It has two specfic examples to show how to use the AutoDock Vina and how to use a general script to run the job.
 Links: [html](/files/tutorials/vina.html), [ipynb](/files/tutorials/vina.ipynb)
 
++ **AlphaFold 3**
+
+[An example to show how to run AlphaFold 3 for beginners (01/22/2025)](/files/tutorials/alphafold3.html):
+It shows how to use the AlphaFold 3 to dock the PFOA molecule into the human serum albumin protein.
+Links: [html](/files/tutorials/alphafold3.html), [ipynb](/files/tutorials/alphafold3.ipynb)
+
