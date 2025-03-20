@@ -33,3 +33,9 @@ Links: [html](/files/tutorials/vina.html), [ipynb](/files/tutorials/vina.ipynb)
 It shows how to use the AlphaFold 3 to dock the PFOA molecule into the human serum albumin protein.
 Links: [html](/files/tutorials/alphafold3.html), [ipynb](/files/tutorials/alphafold3.ipynb)
 
++ **Batch Processing**
+
+[A note of docking PFAS into protein systems using both AutoDock Vina and AlphaFold 3 (3/20/2025)](/files/tutorials/pfas_docking.html):
+This note shows a general precedure to run the molecular docking, and it can be used to do the batch processing.
+Links: [html](/files/tutorials/pfas_docking.html), [ipynb](/files/tutorials/pfas_docking.ipynb)
+

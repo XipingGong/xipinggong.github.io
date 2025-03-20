@@ -1,4 +1,13 @@
 
+jupyter nbconvert --to html --template pj alphafold3.ipynb
+jupyter nbconvert --to html --template pj setup.ipynb
+jupyter nbconvert --to html --template pj vina.ipynb
+jupyter nbconvert --to html --template pj pfas_docking.ipynb
+
+exit
+
+# Notes
+
 build folder: this is used to build each ipynb file, and we can also test each ipynb file in this folder.
 
 images: to save the images that the ipynb files need.

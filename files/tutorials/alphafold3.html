@@ -483,7 +483,8 @@ Maso, Lorenzo, et al. "Unveiling the binding mode of perfluorooctanoic acid to h
 
 <h2 id="A-general-script-to-run-the-docking">A general script to run the docking<a class="anchor-link" href="#A-general-script-to-run-the-docking">&#182;</a></h2><div class="highlight"><pre><span></span><span class="c1"># 1. Prepare the input files: input.json and the parameters file</span>
 <span class="c1"># The parameters file can be requested, and please see the link: https://github.com/google-deepmind/alphafold3</span>
-<span class="c1"># The input file can be found in the Appendix file, and you can also check out the document from here: https://github.com/google-deepmind/alphafold3/blob/main/docs/input.md</span>
+<span class="c1"># The input file can be found in the Appendix file, and you can also check out the document from here:</span>
+<span class="c1"># Input: https://github.com/google-deepmind/alphafold3/blob/main/docs/input.md</span>
 
 <span class="c1"># 2. Using a bash script to run the job.</span>
 $<span class="w"> </span>bash<span class="w"> </span>sub.sh<span class="w"> </span><span class="c1"># Please see the sub.sh script in the Appendix for the details.</span>
@@ -508,7 +509,7 @@ $<span class="w"> </span>bash<span class="w"> </span>sub.sh<span class="w"> </sp
 <span class="c1">#SBATCH --mem=60gb</span>
 <span class="c1">#SBATCH --time=120:00:00</span>
 <span class="c1">#SBATCH --output=x_%x.%j.out</span>
-<span class="c1">#SBATCH --error=x_%x.%j.err</span>
+<span class="c1">#SBATCH --error=x_%x.%j.out # redirect to the same output</span>
 
 <span class="nv">SECONDS</span><span class="o">=</span><span class="m">0</span><span class="w">  </span><span class="c1"># Reset the timer</span>
 
@@ -540,13 +541,13 @@ singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> 
 <span class="w">    </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;protein&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">        </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;sequence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AHKSEVAHRFKDLGEENFKALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKKYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLECADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFVESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHECYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQVSTPTLVEVSRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNRRPCFSALEVDETYVPKEFNAETFTFHADICTLSEKERQIKKQTALVELVKHKPKATKEQLKAVMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAALGL&quot;</span>
+<span class="w">        </span><span class="nt">&quot;sequence&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;HKSEVAHRFKDLGEENFKALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKKYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLECADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFVESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHECYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQVSTPTLVEVSRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNRRPCFSALEVDETYVPKEFNAETFTFHADICTLSEKERQIKKQTALVELVKHKPKATKEQLKAVMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAAL&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">},</span>
 <span class="w">    </span><span class="p">{</span>
 <span class="w">     </span><span class="nt">&quot;ligand&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">        </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;B&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;smiles&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(=O)[O-]&quot;</span>
+<span class="w">        </span><span class="nt">&quot;ccdCodes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;8PF&quot;</span><span class="p">]</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">],</span>
