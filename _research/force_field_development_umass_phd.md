@@ -1,6 +1,6 @@
 ---
 collection: research
-category: "Chemistry"
+category: "Biology"
 title: "Development of an accurate force field for molecular dynamics simulations (2022-Now)"
 ---
 

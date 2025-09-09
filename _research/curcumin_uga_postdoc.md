@@ -1,6 +1,6 @@
 ---
 collection: research
-category: "Food Science and Technology"
+category: "Food Science"
 title: "Investigations on how an alkali-acid treatment alter the structures of plant-derived components (2023.10-2024.12)"
 ---
 
@@ -26,6 +26,8 @@ turmeric, and other plants.
 **Abstract**: The simple and green pH-based method shows promise for encapsulating hydrophobic molecules in delivery systems to enhance their bioavailability. However, there is still a limited understanding of the pH-induced structural changes that are involved. In this study, we combine experimental techniques with molecular dynamics simulations to investigate pH-induced structural changes in curcumin crystals. An alkali-acid pretreatment was introduced to encapsulate curcumin, where curcumin is first dissolved in an alkaline solution and then rapidly acidified to form aggregates. Remarkably, these curcumin aggregates can be spontaneously encapsulated into emulsions, even at high concentrations (1 mg/mL). Microscopy images suggested that this pretreatment disrupts the crystalline structure of curcumin. Molecular dynamics simulations further demonstrated that the hydroxyl groups of curcumin form hydrogen bonds with water molecules, while the hydrophobic interactions dominate within pH-treated curcumin aggregates. The structural changes increase the solvent-accessible surface area and promote the rapid solubilization of curcumin into emulsions or milks. 
 
 <img src='https://pubs.acs.org/cms/10.1021/acsfoodscitech.4c00595/asset/images/medium/fs4c00595_0008.gif' alt='drawing' width='500'/>
+
+<img src='https://pubs.acs.org/cms/10.1021/acsfoodscitech.4c00595/asset/images/medium/fs4c00595_0007.gif' alt='drawing' width='500'/>
 
 **Figure 1**. The pH-based versus direct approaches for incorporating hydrophobic curcumin crystals into emulsion systems (such as nanoemulsions).
 

@@ -19,6 +19,7 @@ Please visit the [Google Scholar](https://scholar.google.com/citations?user=tcXo
 <span style="color:blue">At the University of Georgia as a postdoctoral researcher (2023.10-Now)</span>
 
 **2025**
+<br/> 15. Gong, X.; Zhou, H.; Huang, Q.* Assessing AlphaFold 3 for Per- and Polyfluoroalkyl Substances Docking in Protein Structures. **Environmental Science & Technology** 2025, 59, 18440. DOI: https://doi.org/10.1021/acs.est.5c03917. [Link](https://doi.org/10.1021/acs.est.5c03917)
 <br/> 14. Gong, X.; Wang, M.; Zhou, H.* Harnessing pH for sustainable and effective synthesis of phenolic compound-loaded nanoparticles directly from raw plants. **Food Chemistry** 2025, 467, 142327. DOI: https://doi.org/10.1016/j.foodchem.2024.142327. [Link](https://doi.org/10.1016/j.foodchem.2024.142327)
 
 **2024**

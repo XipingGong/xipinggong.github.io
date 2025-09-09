@@ -9,7 +9,7 @@ title: "Accelerating a quantum chemistry VBSCF method using a Cholesky decomposi
 
 **Introduction**
 
-During my M.S. program, I dedicated three years to learning quantum chemistry calculations. One of my primary projects involved accelerating the valence bond self-consistent field (VBSCF) method by implementing the Cholesky decomposition (CD) technique.
+During my M.S. program, I dedicated three years to learning quantum chemistry calculations. One of my primary projects involved accelerating the valence bond self-consistent field (VBSCF) method by using a Cholesky decomposition (CD) technique.
 
 **1. The application of cholesky decomposition in valence bond calculation**
 

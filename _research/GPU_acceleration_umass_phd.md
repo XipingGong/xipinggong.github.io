@@ -1,6 +1,6 @@
 ---
 collection: research
-category: "Chemistry"
+category: "Biology"
 title: "Accelerating molecular dynamics simulation models using Graphics Processing Units (2018.1-2023.7)"
 ---
 
@@ -9,7 +9,7 @@ title: "Accelerating molecular dynamics simulation models using Graphics Process
 
 **Introduction**
 
-I worked on this research project during my Ph.D. career. Our inital goal is to accelerate the GBMV2 implicit solvent model for simulating the intrinsically disordered proteins (IDPs), in particular capturing their conformational changes. The GBMV2 implicit solvent model is considered more accurate than other implicit solvent models, due to an accurate description of molecular volume, but it is significantly slower. My research study is to use the Graphics Processing Units (GPU) to accelerate it, as well as improve their performance for the IDP simulations. I also spent time on the implementation of GPU-accelerated hybrid resolution (HyRes) protein model for the IDP simulations using the OpenMM program. 
+I worked on this research project during my Ph.D. training. Our inital goal is to accelerate the GBMV2 implicit solvent model for simulating the intrinsically disordered proteins (IDPs), in particular capturing their conformational changes. The GBMV2 implicit solvent model is considered more accurate than other implicit solvent models, due to an accurate description of molecular volume, but it is significantly slower. My research study is to use the Graphics Processing Units (GPU) to accelerate it, as well as improve their performance for the IDP simulations. I also spent time on the implementation of GPU-accelerated hybrid resolution (HyRes) protein model for the IDP simulations using the OpenMM program. 
 
 **1. Accelerating the Generalized Born with Molecular Volume and Solvent Accessible Surface Area Implicit Solvent Model Using Graphics Processing Units**
 
