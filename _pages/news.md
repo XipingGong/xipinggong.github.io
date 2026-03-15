@@ -5,12 +5,17 @@ author_profile: true
 title: ""
 ---
 
-News
+<span style="color:blue">Recent News</span>
 ====
-The following news tracks all exciting moments.
+{% assign sorted_news = site.news | sort: 'date' | reverse %}
+{% for post in sorted_news limit:10  %}
+  <li>
+    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%m/%d/%Y" }} - {{ post.title }}</a>
+  </li>
+{% endfor %}
+
 
 -------------------------
-
 
 {% include base_path %}
 

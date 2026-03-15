@@ -8,21 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+In 1929, Dr. [Paul Dirac](https://en.wikipedia.org/wiki/Paul_Dirac) stated:
 
-<span style="color:blue">Computational Modeling and Simulations</span>
-==============
-----------------------
+> “The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It therefore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation.”
 
-My research is dedicated to leveraging computational methods to address complex challenges across various scientific disciplines. By utilizing advanced modeling techniques, simulations, and data-driven approaches, I aim to uncover insights that are otherwise difficult to obtain through traditional experimental methods. Through these efforts, I strive to make significant contributions to the advancement of knowledge and the development of innovative solutions for real-world problems.
+Reference:  
+Dirac, P. A. M. *Quantum Mechanics of Many-Electron Systems*.  
+Proceedings of the Royal Society A (1929).  
+DOI: https://doi.org/10.1098/rspa.1929.0094
 
-<span style="color:blue">Recent News</span>
-==============
-----------------------
+After almost a century of effort, many physics-based approximate methods have been developed to address this challenge. More recently, general approximation approaches based on artificial intelligence have also emerged. The combination of physics-based modeling and AI-driven methods is increasingly transforming the practical "bottom-up" application of quantum mechanics across many scientific disciplines.
 
-{% assign sorted_news = site.news | sort: 'date' | reverse %}
-{% for post in sorted_news limit:10  %}
-  <li>
-    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%m/%d/%Y" }} - {{ post.title }}</a>
-  </li>
-{% endfor %}
 
